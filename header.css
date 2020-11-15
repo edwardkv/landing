@@ -1,0 +1,55 @@
+.header {
+  background: #ddd;
+  min-height: 50px;
+}
+
+
+.header-phone {
+  float: left;
+  display: inline;
+  width: 300px;
+  min-height: 36px;
+  padding: 10px 10px;
+
+}
+
+.header-phone a {
+  color: #41cf71;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.header-nav {
+  float: right;
+  vertical-align: baseline;
+  line-height: 36px;
+}
+
+.header-nav-item {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+  display: inline-block;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  color: #41cf71;
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .header-nav,
+  .header-phone {
+    float: none;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .header-nav-item {
+    display: block;
+  }
+}

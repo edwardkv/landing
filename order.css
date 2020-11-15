@@ -1,0 +1,20 @@
+.order {
+  margin: 20px 0 0 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background: #ccc;
+
+}
+
+.order-form {
+  margin-top: 20px;
+}
+
+.order-form input {
+  font-size: 25px;
+  height: 47px;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
