@@ -1,6 +1,7 @@
 .reviews {
   margin: 20px auto;
   width: 80%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .review {
@@ -12,12 +13,18 @@
 }
 
 .review-author {
-  font-size: 36px;
-  font-family: courier;
+  font-size: 30px;
   color: brown;
 }
 
 .review-text {
-  font-size: 30px;
-  font-family: Vernada;
+  font-size: 24px;
 }
+
+.review img {
+  width: 70px;
+  border-radius: 50px;
+  float: left;
+  margin: 0px 5px 5px 0px;
+}
+

@@ -1,6 +1,7 @@
 .header {
   background: #ddd;
   min-height: 50px;
+  font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -39,7 +40,7 @@
   font-weight: bold;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   .header-nav,
   .header-phone {
     float: none;
